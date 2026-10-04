@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+env/
+
+# Data files (हम डेटा को क्लाउड पर रखेंगे, GitHub पर नहीं)
+data/
+*.csv
+*.json
+*.parquet
+
+# Secrets and Credentials (Passwords)
+.env

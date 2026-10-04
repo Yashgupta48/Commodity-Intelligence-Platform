@@ -1,0 +1,7 @@
+apache-airflow==2.7.0
+pandas
+requests
+pyspark
+azure-storage-blob
+azure-identity
+python-dotenv
