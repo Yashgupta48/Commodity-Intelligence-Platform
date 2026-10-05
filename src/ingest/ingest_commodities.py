@@ -48,10 +48,10 @@ def fetch_commodity_data(commodity_name):
 
 if __name__ == "__main__":
     # We will fetch data for Soybean, Cotton, and Maize.
-    commodities = ["SOYBEAN", "COTTON", "CORN"] #Alpha Vantage refers to Maize as “CORN.”
+    commodities = ["WHEAT", "COTTON", "CORN"] #Alpha Vantage refers to Maize as “CORN.”
     
     for item in commodities:
         fetch_commodity_data(item)
         # 15-second gap between each API call to prevent the API from being blocked.
         print("Waiting 15 seconds for the next call to avoid API limits...")
-        time.sleep(15)
+        time.sleep(25)
